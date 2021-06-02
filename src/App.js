@@ -4,11 +4,6 @@ import Gallery from "./components/Gallery";
 import Data from "./data.json";
 import Footer from "./components/Footer";
 
-// import ReactDOM from "react-dom";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { faCoffee } from "@fortawesome/free-solid-svg-icons";
-// const element = <FontAwesomeIcon icon={faCoffee} />;
-
 function App() {
   const [posts, setPosts] = useState(Data);
 
@@ -19,6 +14,7 @@ function App() {
       }
       <Header />
       <Gallery Data={Data} />
+
       <Footer />
     </React.Fragment>
   );

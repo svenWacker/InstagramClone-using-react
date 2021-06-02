@@ -1,12 +1,12 @@
 .header-wrapper {
   border-bottom: 1px solid #3338;
-  height: 10vh;
-  line-height: 9rem;
+  height: 8vh;
+  line-height: 7rem;
   display: flex;
   justify-content: space-between;
 
   .image-wrapper {
-    height: 10rem;
+    height: 7rem;
     .logo-image {
       height: 100%;
     }
@@ -15,10 +15,11 @@
     display: flex;
   }
   .social {
+    display: inline;
     width: 40px;
     height: 40px;
     img {
-      font-size: 20px;
+      height: 7rem;
     }
   }
 }
