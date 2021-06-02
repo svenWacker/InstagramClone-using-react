@@ -1,3 +1,27 @@
 body {
-  background-color: orange;
+  background-color: #ffffff;
+}
+.header-wrapper {
+  border-bottom: 1px solid #3338;
+  height: 10vh;
+  line-height: 9rem;
+  display: flex;
+  justify-content: space-between;
+
+  .image-wrapper {
+    height: 10rem;
+    .logo-image {
+      height: 100%;
+    }
+  }
+  .social-wrapper {
+    display: flex;
+  }
+  .social {
+    width: 40px;
+    height: 40px;
+    img {
+      font-size: 20px;
+    }
+  }
 }

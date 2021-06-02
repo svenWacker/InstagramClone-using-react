@@ -8,6 +8,6 @@
 const Gallery = (props) => {
   const { Data } = props;
   console.log(Data);
-  return <div></div>;
+  return <div className="gallery-wrapper"></div>;
 };
 export default Gallery;
