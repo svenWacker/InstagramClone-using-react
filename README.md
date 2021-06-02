@@ -1,6 +1,6 @@
 # Getting Started with Instagram Clone App
 
-This project was made by hand [Run Translate To Morse App](https://github.com/facebook/create-react-app).
+This project was made by hand [Run Instagram Clone App](http://svenWacker.github.io/insta-clone-react).
 
 ## Prework
 
