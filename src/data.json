@@ -1,11 +1,56 @@
 [
   {
     "id": 0,
-    "title": "Schlachtensee",
+    "title": "Bug",
     "location": "Berlin",
-    "text": "Enjoining my day",
+    "text": "Bug of the day",
     "likes": 2345,
     "comments": 3444,
-    "img": "./img/DC13.jpg"
+    "img": "./img/bug.jpg"
+  },
+  {
+    "id": 1,
+    "title": "Car",
+    "location": "Berlin",
+    "text": "Car of the day",
+    "likes": 2345,
+    "comments": 3444,
+    "img": "./img/car.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Coffee",
+    "location": "Berlin",
+    "text": "Coffee of the day",
+    "likes": 2345,
+    "comments": 3444,
+    "img": "./img/coffee.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Jump",
+    "location": "Berlin",
+    "text": "Jump of the day",
+    "likes": 2345,
+    "comments": 3444,
+    "img": "./img/jump.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Tree",
+    "location": "Berlin",
+    "text": "Tree of the day",
+    "likes": 2345,
+    "comments": 3444,
+    "img": "./img/tree.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Wheat",
+    "location": "Berlin",
+    "text": "Wheat of the day",
+    "likes": 2345,
+    "comments": 3444,
+    "img": "./img/wheat.jpg"
   }
 ]
