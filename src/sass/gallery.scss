@@ -5,10 +5,10 @@
   display: flex;
   justify-content: space-between;
 }
-.gallery {
+.image-gallery {
   list-style-type: none;
   display: flex;
-  flex-direction: row;
+  // flex-direction: row;
   flex-wrap: wrap;
   overflow: hidden;
   margin-left: 30rem;

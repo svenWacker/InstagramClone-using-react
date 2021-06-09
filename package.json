@@ -1,7 +1,6 @@
 {
   "name": "insta-clone-react",
   "version": "0.1.0",
-  "homepage": "http://svenWacker.github.io/insta-clone-react",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.35",
