@@ -1,33 +1,19 @@
-.gallery-wrapper {
-  border-top: 1px solid #3338;
-  border-bottom: 1px solid #3338;
-  height: 80vh;
-  display: flex;
-  justify-content: space-between;
-}
-
-.image-gallery {
+.gallery {
   list-style-type: none;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  overflow: hidden;
-  width: 960px;
-  margin-left: 30rem;
+  border-top: 1px solid #3338;
+  border-bottom: 1px solid #3338;
+  height: 80vh;
 }
 .image-poster {
-  background-color: blue;
+  background-color: lightgrey;
   width: 300px;
   height: 300px;
   margin: 10px;
   border-radius: 5px;
 }
-// .image-gallery {
-//   // position: relative;
-//   width: 300px;
-//   height: 300px;
-//   margin: 10px;
-// }
 .image {
   display: block;
   width: 100%;

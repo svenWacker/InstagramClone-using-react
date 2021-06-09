@@ -20,7 +20,8 @@ const Gallery = ({ Data }) => {
     <li key={obj.id} className="image-gallery">
       <div className="image-poster">
         <img src={obj.img} alt={obj.title} className="image" />
-
+      </div>
+      <div className="image-poster-overlay">
         <div className="image-title">
           <FontAwesomeIcon icon={faHeart} />
           {obj.likes}

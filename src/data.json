@@ -28,12 +28,12 @@
   },
   {
     "id": 3,
-    "title": "Jump",
+    "title": "Computer",
     "location": "Berlin",
-    "text": "Jump of the day",
+    "text": "Computer of the day",
     "likes": 3456,
     "comments": 3333,
-    "img": "./img/jump.jpeg"
+    "img": "./img/computer.jpg"
   },
   {
     "id": 4,
