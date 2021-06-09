@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.33d9451e.chunk.css",
-    "main.js": "/static/js/main.9724099f.chunk.js",
-    "main.js.map": "/static/js/main.9724099f.chunk.js.map",
+    "main.css": "/static/css/main.7efe115b.chunk.css",
+    "main.js": "/static/js/main.b8e43d90.chunk.js",
+    "main.js.map": "/static/js/main.b8e43d90.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.ff7da7ba.js",
     "runtime-main.js.map": "/static/js/runtime-main.ff7da7ba.js.map",
     "static/js/2.9c49d96a.chunk.js": "/static/js/2.9c49d96a.chunk.js",
     "static/js/2.9c49d96a.chunk.js.map": "/static/js/2.9c49d96a.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.33d9451e.chunk.css.map": "/static/css/main.33d9451e.chunk.css.map",
+    "static/css/main.7efe115b.chunk.css.map": "/static/css/main.7efe115b.chunk.css.map",
     "static/js/2.9c49d96a.chunk.js.LICENSE.txt": "/static/js/2.9c49d96a.chunk.js.LICENSE.txt",
     "static/media/iglogo.545e9069.png": "/static/media/iglogo.545e9069.png"
   },
   "entrypoints": [
     "static/js/runtime-main.ff7da7ba.js",
     "static/js/2.9c49d96a.chunk.js",
-    "static/css/main.33d9451e.chunk.css",
-    "static/js/main.9724099f.chunk.js"
+    "static/css/main.7efe115b.chunk.css",
+    "static/js/main.b8e43d90.chunk.js"
   ]
 }
