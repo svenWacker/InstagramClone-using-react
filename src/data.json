@@ -28,12 +28,12 @@
   },
   {
     "id": 3,
-    "title": "Computer",
+    "title": "Pizza",
     "location": "Berlin",
-    "text": "Computer of the day",
+    "text": "Pizza of the day",
     "likes": 3456,
     "comments": 3333,
-    "img": "./img/computer.jpg"
+    "img": "./img/pizza.jpg"
   },
   {
     "id": 4,
@@ -52,5 +52,23 @@
     "likes": 2345,
     "comments": 5555,
     "img": "./img/wheat.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Guitar",
+    "location": "Berlin",
+    "text": "Guitar of the day",
+    "likes": 6789,
+    "comments": 6666,
+    "img": "./img/guitar.jpg"
+  },
+  {
+    "id": 7,
+    "title": "Bike",
+    "location": "Berlin",
+    "text": "Bike of the day",
+    "likes": 7891,
+    "comments": 7777,
+    "img": "./img/bike.jpg"
   }
 ]
