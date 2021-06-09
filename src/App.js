@@ -1,11 +1,13 @@
 import React, { useState } from "react";
 import Header from "./components/Header";
 import Gallery from "./components/Gallery";
-import Data from "./data.json";
 import Footer from "./components/Footer";
 
+import "./sass/main.scss";
+import Data from "./data.json";
+
 function App() {
-  const [posts, setPosts] = useState(Data);
+  // const [posts, setPosts] = useState(Data);
 
   return (
     <React.Fragment>
@@ -14,7 +16,6 @@ function App() {
       }
       <Header />
       <Gallery Data={Data} />
-
       <Footer />
     </React.Fragment>
   );

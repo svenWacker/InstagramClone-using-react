@@ -17,16 +17,16 @@ const Header = () => {
       </div>
       <div className="social-wrapper">
         <div className="social">
-          {/* <i className="fa fa-compass" size="" color="green" /> */}
           <FontAwesomeIcon icon={faCompass} />
         </div>
         <div className="social">
-          {/* <i className="fa fa-heart" /> */}
           <FontAwesomeIcon icon={faHeart} />
         </div>
         <div className="social">
-          {/* <i className="fa fa-user-circle" /> */}
           <FontAwesomeIcon icon={faPaperPlane} />
+        </div>
+        <div className="social">
+          {/* <img alt="profile-image" src={} className="profile-image" /> */}
         </div>
       </div>
     </div>
