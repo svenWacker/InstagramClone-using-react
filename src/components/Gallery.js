@@ -19,16 +19,17 @@ const Gallery = ({ Data }) => {
   const galleryData = Data.map((obj) => (
     <li key={obj.id} className="image-gallery">
       <div className="image-poster">
-        <img src={obj.img} alt={obj.title} className="photo image--img" />
+        <img src={obj.img} alt={obj.title} className="image" />
+
+        <div className="image-title">
+          <FontAwesomeIcon icon={faHeart} />
+          {obj.likes}
+        </div>
+        <div className="image-description">
+          <FontAwesomeIcon icon={faComment} />
+          {obj.comments}
+        </div>
       </div>
-      <div className="image-title">
-        <FontAwesomeIcon icon={faHeart} />
-        {obj.likes}
-      </div>
-      <p className="image--description">
-        <FontAwesomeIcon icon={faComment} />
-        {obj.comments}
-      </p>
     </li>
   ));
 

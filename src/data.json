@@ -4,8 +4,8 @@
     "title": "Bug",
     "location": "Berlin",
     "text": "Bug of the day",
-    "likes": 12324345,
-    "comments": 3444,
+    "likes": 0,
+    "comments": 0,
     "img": "./img/bug.jpg"
   },
   {
@@ -13,8 +13,8 @@
     "title": "Car",
     "location": "Berlin",
     "text": "Car of the day",
-    "likes": 2345,
-    "comments": 3444,
+    "likes": 1234,
+    "comments": 1234,
     "img": "./img/car.jpg"
   },
   {
@@ -23,7 +23,7 @@
     "location": "Berlin",
     "text": "Coffee of the day",
     "likes": 2345,
-    "comments": 3444,
+    "comments": 2222,
     "img": "./img/coffee.jpg"
   },
   {
@@ -31,17 +31,17 @@
     "title": "Jump",
     "location": "Berlin",
     "text": "Jump of the day",
-    "likes": 2345,
-    "comments": 3444,
-    "img": "./img/jump.jpg"
+    "likes": 3456,
+    "comments": 3333,
+    "img": "./img/jump.jpeg"
   },
   {
     "id": 4,
     "title": "Tree",
     "location": "Berlin",
     "text": "Tree of the day",
-    "likes": 2345,
-    "comments": 3444,
+    "likes": 4567,
+    "comments": 4444,
     "img": "./img/tree.jpg"
   },
   {
@@ -50,7 +50,7 @@
     "location": "Berlin",
     "text": "Wheat of the day",
     "likes": 2345,
-    "comments": 3444,
+    "comments": 5555,
     "img": "./img/wheat.jpg"
   }
 ]
