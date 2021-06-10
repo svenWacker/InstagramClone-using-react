@@ -1,6 +1,7 @@
 import IGLogo from "../img/iglogo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
+  faHome,
   faCompass,
   faHeart,
   faPaperPlane,
@@ -16,18 +17,21 @@ const Header = () => {
         <input type="text" placeholder="Search" />
       </div>
       <div className="social-wrapper">
-        <div className="social">
+        <a className="social">
+          <FontAwesomeIcon icon={faHome} />
+        </a>
+        <a className="social">
           <FontAwesomeIcon icon={faCompass} />
-        </div>
-        <div className="social">
+        </a>
+        <a className="social">
           <FontAwesomeIcon icon={faHeart} />
-        </div>
-        <div className="social">
+        </a>
+        <a className="social">
           <FontAwesomeIcon icon={faPaperPlane} />
-        </div>
-        <div className="social">
+        </a>
+        <a className="social">
           {/* <img alt="profile-image" src={} className="profile-image" /> */}
-        </div>
+        </a>
       </div>
     </div>
   );
