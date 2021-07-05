@@ -30,7 +30,17 @@ const Navigation = () => {
           <FontAwesomeIcon icon={faPaperPlane} />
         </a>
         <a className="social">
-          {/* <img alt="profile-image" src={} className="profile-image" /> */}
+          <img
+            alt="profile-image"
+            style={{
+              borderRadius: "50%",
+              border: "1px solid black",
+              width: "22px",
+              height: "22px",
+            }}
+            src="./img/me.jpg"
+            className="profile-image"
+          />
         </a>
       </div>
     </div>
