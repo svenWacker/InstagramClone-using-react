@@ -1,10 +1,8 @@
-.gallery {
+.image-gallery {
   list-style-type: none;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  // border-top: 1px solid #3338;
-  // border-bottom: 1px solid #3338;
 }
 .image-poster {
   background-color: lightgrey;

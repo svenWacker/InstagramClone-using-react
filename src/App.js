@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Navigation from "./components/Navigation";
 import Header from "./components/Header";
 import Gallery from "./components/Gallery";
 import Footer from "./components/Footer";
@@ -9,9 +10,7 @@ function App() {
 
   return (
     <React.Fragment>
-      {
-        // <Gallery posts={posts} />
-      }
+      <Navigation />
       <Header />
       <Gallery Data={Data} />
       <Footer />
