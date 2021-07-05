@@ -73,22 +73,13 @@ const Header = () => {
         </div>
       </div>
       <div className="gallery-menu">
-        <span>
-          {list}
-          <a href="/">POSTS</a>
-        </span>
-        <span>
-          {video}
-          <a href="/">REELS</a>
-        </span>
-        <span>
-          {tv}
-          <a href="/">IGTV</a>
-        </span>
-        <span>
-          {tagg}
-          <a href="/">TAGGED</a>
-        </span>
+        <a href="/"> {list}&nbsp;POSTS</a>
+
+        <a href="/"> {video}&nbsp;REELS</a>
+
+        <a href="/"> {tv}&nbsp;IGTV</a>
+
+        <a href="/"> {tagg}&nbsp;TAGGED</a>
       </div>
     </div>
   );
