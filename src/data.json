@@ -1,74 +1,128 @@
 [
   {
     "id": 0,
-    "title": "Bug",
+    "title": "Drinks",
     "location": "Berlin",
     "text": "Bug of the day",
     "likes": 0,
     "comments": 0,
-    "img": "./img/bug.jpg"
+    "img": "./img/drinks.jpg"
   },
   {
     "id": 1,
-    "title": "Car",
+    "title": "Elements",
     "location": "Berlin",
     "text": "Car of the day",
     "likes": 1234,
     "comments": 1234,
-    "img": "./img/car.jpg"
+    "img": "./img/elements.jpg"
   },
   {
     "id": 2,
-    "title": "Coffee",
+    "title": "Flower",
     "location": "Berlin",
     "text": "Coffee of the day",
     "likes": 2345,
     "comments": 2222,
-    "img": "./img/coffee.jpg"
+    "img": "./img/flower.jpg"
   },
   {
     "id": 3,
-    "title": "Pizza",
+    "title": "Galaxy",
     "location": "Berlin",
     "text": "Pizza of the day",
     "likes": 3456,
     "comments": 3333,
-    "img": "./img/pizza.jpg"
+    "img": "./img/galaxy.jpg"
   },
   {
     "id": 4,
-    "title": "Tree",
+    "title": "Giant",
     "location": "Berlin",
     "text": "Tree of the day",
     "likes": 4567,
     "comments": 4444,
-    "img": "./img/tree.jpg"
+    "img": "./img/giant.jpg"
   },
   {
     "id": 5,
-    "title": "Wheat",
+    "title": "Gotje",
     "location": "Berlin",
     "text": "Wheat of the day",
     "likes": 2345,
     "comments": 5555,
-    "img": "./img/wheat.jpg"
+    "img": "./img/gotje.jpg"
   },
   {
     "id": 6,
-    "title": "Guitar",
+    "title": "Halo",
     "location": "Berlin",
     "text": "Guitar of the day",
     "likes": 6789,
     "comments": 6666,
-    "img": "./img/guitar.jpg"
+    "img": "./img/halo.jpg"
   },
   {
     "id": 7,
-    "title": "Bike",
+    "title": "Life",
     "location": "Berlin",
     "text": "Bike of the day",
     "likes": 7891,
     "comments": 7777,
-    "img": "./img/bike.jpg"
+    "img": "./img/life.jpg"
+  },
+  {
+    "id": 8,
+    "title": "Popeye",
+    "location": "Berlin",
+    "text": "Guitar of the day",
+    "likes": 6789,
+    "comments": 6666,
+    "img": "./img/popeye.jpg"
+  },
+  {
+    "id": 9,
+    "title": "Rainbow",
+    "location": "Berlin",
+    "text": "Bike of the day",
+    "likes": 7891,
+    "comments": 7777,
+    "img": "./img/rainbow.jpg"
+  },
+  {
+    "id": 10,
+    "title": "Spark",
+    "location": "Berlin",
+    "text": "Guitar of the day",
+    "likes": 6789,
+    "comments": 6666,
+    "img": "./img/spark.jpg"
+  },
+  {
+    "id": 11,
+    "title": "Stones",
+    "location": "Berlin",
+    "text": "Bike of the day",
+    "likes": 7891,
+    "comments": 7777,
+    "img": "./img/stones.jpg"
+  },
+  {
+    "id": 12,
+    "title": "Suit",
+    "location": "Berlin",
+    "text": "Guitar of the day",
+    "likes": 6789,
+    "comments": 6666,
+    "img": "./img/suit.jpg"
+  },
+  {
+    "id": 13,
+    "title": "Web",
+    "location": "Berlin",
+    "text": "Bike of the day",
+    "likes": 7891,
+    "comments": 7777,
+    "img": "./img/web.jpg"
   }
 ]
