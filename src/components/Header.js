@@ -12,7 +12,7 @@ const Header = () => {
     <div className="header-wrapper">
       <div className="content">
         <div className="avatar">
-          <img src="./img/me.jpg" />
+          <img style={{ borderRadius: "50%" }} src="./img/me.jpg" />
         </div>
         <div className="follow">
           <span>
