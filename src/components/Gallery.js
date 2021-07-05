@@ -17,21 +17,23 @@ import { faHeart, faComment } from "@fortawesome/free-solid-svg-icons";
 
 const Gallery = ({ Data }) => {
   const galleryData = Data.map((obj) => (
-    <li key={obj.id} className="image-gallery">
-      <div className="image-poster">
-        <img src={obj.img} alt={obj.title} className="image" />
-      </div>
-      <div className="image-poster-overlay">
-        <div className="image-title">
-          <FontAwesomeIcon icon={faHeart} />
-          {obj.likes}
+    <div className="gallery-wrapper">
+      <li key={obj.id} className="image-gallery">
+        <div className="image-poster">
+          <img src={obj.img} alt={obj.title} className="image" />
         </div>
-        <div className="image-description">
-          <FontAwesomeIcon icon={faComment} />
-          {obj.comments}
+        <div className="image-poster-overlay">
+          <div className="image-title">
+            <FontAwesomeIcon icon={faHeart} />
+            {obj.likes}
+          </div>
+          <div className="image-description">
+            <FontAwesomeIcon icon={faComment} />
+            {obj.comments}
+          </div>
         </div>
-      </div>
-    </li>
+      </li>
+    </div>
   ));
 
   return <ul className="gallery">{galleryData}</ul>;

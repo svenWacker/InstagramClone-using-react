@@ -15,55 +15,61 @@ const Header = () => {
           <img style={{ borderRadius: "50%" }} src="./img/me.jpg" />
         </div>
         <div className="follow">
-          <span>
-            <h1>swfun75</h1>
-            <button className="button-follow " type="submit">
-              Follow
-            </button>
-            <svg
-              aria-label="Optionen"
-              class="_8-yf5 "
-              fill="#262626"
-              height="24"
-              viewBox="0 0 48 48"
-              width="24"
-            >
-              <circle
-                clip-rule="evenodd"
-                cx="8"
-                cy="24"
-                fill-rule="evenodd"
-                r="4.5"
-              ></circle>
-              <circle
-                clip-rule="evenodd"
-                cx="24"
-                cy="24"
-                fill-rule="evenodd"
-                r="4.5"
-              ></circle>
-              <circle
-                clip-rule="evenodd"
-                cx="40"
-                cy="24"
-                fill-rule="evenodd"
-                r="4.5"
-              ></circle>
-            </svg>
-          </span>
-          <span>
+          <div className="row">
+            <div className="space-wrapper">
+              <div className="space">
+                <h1>swfun75</h1>
+              </div>
+              <div className="space">
+                <button className="button-follow " type="submit">
+                  Follow
+                </button>
+              </div>
+              <div className="space">
+                <svg
+                  aria-label="Optionen"
+                  class="_8-yf5 "
+                  fill="#262626"
+                  height="24"
+                  viewBox="0 0 48 48"
+                  width="24"
+                >
+                  <circle
+                    clip-rule="evenodd"
+                    cx="8"
+                    cy="24"
+                    fill-rule="evenodd"
+                    r="4.5"
+                  ></circle>
+                  <circle
+                    clip-rule="evenodd"
+                    cx="24"
+                    cy="24"
+                    fill-rule="evenodd"
+                    r="4.5"
+                  ></circle>
+                  <circle
+                    clip-rule="evenodd"
+                    cx="40"
+                    cy="24"
+                    fill-rule="evenodd"
+                    r="4.5"
+                  ></circle>
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div className="row">
             <h3>18 posts </h3>
             <h3>77 followers </h3>
             <h3>136 following </h3>
-          </span>
-          <span>
-            <h2>National Sven Wacker</h2>
-          </span>
-          <span className="text">
-            <span>
-              <h4>Engineer, Developer and Artist</h4>
-            </span>
-          </span>
+          </div>
+          <div className="row">
+            <h2>Sven Wacker</h2>
+          </div>
+          <div className="row">
+            <h3>Engineer, Developer and Artist</h3>
+          </div>
         </div>
       </div>
       <div className="gallery-menu">

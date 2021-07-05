@@ -21,14 +21,15 @@ const Navigation = () => {
           <FontAwesomeIcon icon={faHome} />
         </a>
         <a className="social">
+          <FontAwesomeIcon icon={faPaperPlane} />
+        </a>
+        <a className="social">
           <FontAwesomeIcon icon={faCompass} />
         </a>
         <a className="social">
           <FontAwesomeIcon icon={faHeart} />
         </a>
-        <a className="social">
-          <FontAwesomeIcon icon={faPaperPlane} />
-        </a>
+
         <a className="social">
           <img
             alt="profile-image"
