@@ -77,7 +77,6 @@ const Header = () => {
           style={{ padding: "1rem 0 1rem 0", borderTop: "2px solid grey" }}
           href="/"
         >
-          {" "}
           {list}&nbsp;POSTS
         </a>
 

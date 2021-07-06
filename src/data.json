@@ -3,7 +3,7 @@
     "id": 0,
     "title": "Drinks",
     "location": "Berlin",
-    "text": "Bug of the day",
+    "text": "Drink of the day",
     "likes": 0,
     "comments": 0,
     "img": "./img/drinks.jpg"
@@ -12,7 +12,7 @@
     "id": 1,
     "title": "Elements",
     "location": "Berlin",
-    "text": "Car of the day",
+    "text": "Elements of the day",
     "likes": 1234,
     "comments": 1234,
     "img": "./img/elements.jpg"
@@ -21,7 +21,7 @@
     "id": 2,
     "title": "Flower",
     "location": "Berlin",
-    "text": "Coffee of the day",
+    "text": "Flower of the day",
     "likes": 2345,
     "comments": 2222,
     "img": "./img/flower.jpg"
@@ -30,7 +30,7 @@
     "id": 3,
     "title": "Galaxy",
     "location": "Berlin",
-    "text": "Pizza of the day",
+    "text": "Galaxy of the day",
     "likes": 3456,
     "comments": 3333,
     "img": "./img/galaxy.jpg"
@@ -39,25 +39,25 @@
     "id": 4,
     "title": "Giant",
     "location": "Berlin",
-    "text": "Tree of the day",
+    "text": "Giant of the day",
     "likes": 4567,
     "comments": 4444,
     "img": "./img/giant.jpg"
   },
   {
     "id": 5,
-    "title": "Gotje",
+    "title": "Gotye",
     "location": "Berlin",
-    "text": "Wheat of the day",
+    "text": "Gotye of the day",
     "likes": 2345,
     "comments": 5555,
-    "img": "./img/gotje.jpg"
+    "img": "./img/gotye.jpg"
   },
   {
     "id": 6,
     "title": "Halo",
     "location": "Berlin",
-    "text": "Guitar of the day",
+    "text": "Halo of the day",
     "likes": 6789,
     "comments": 6666,
     "img": "./img/halo.jpg"
@@ -66,7 +66,7 @@
     "id": 7,
     "title": "Life",
     "location": "Berlin",
-    "text": "Bike of the day",
+    "text": "Life of the day",
     "likes": 7891,
     "comments": 7777,
     "img": "./img/life.jpg"
@@ -75,7 +75,7 @@
     "id": 8,
     "title": "Popeye",
     "location": "Berlin",
-    "text": "Guitar of the day",
+    "text": "Popeye of the day",
     "likes": 6789,
     "comments": 6666,
     "img": "./img/popeye.jpg"
@@ -84,7 +84,7 @@
     "id": 9,
     "title": "Rainbow",
     "location": "Berlin",
-    "text": "Bike of the day",
+    "text": "Rainbow of the day",
     "likes": 7891,
     "comments": 7777,
     "img": "./img/rainbow.jpg"
@@ -93,7 +93,7 @@
     "id": 10,
     "title": "Spark",
     "location": "Berlin",
-    "text": "Guitar of the day",
+    "text": "Spark of the day",
     "likes": 6789,
     "comments": 6666,
     "img": "./img/spark.jpg"
@@ -102,7 +102,7 @@
     "id": 11,
     "title": "Stones",
     "location": "Berlin",
-    "text": "Bike of the day",
+    "text": "Stonesof the day",
     "likes": 7891,
     "comments": 7777,
     "img": "./img/stones.jpg"
@@ -111,7 +111,7 @@
     "id": 12,
     "title": "Suit",
     "location": "Berlin",
-    "text": "Guitar of the day",
+    "text": "Suit of the day",
     "likes": 6789,
     "comments": 6666,
     "img": "./img/suit.jpg"
@@ -120,9 +120,18 @@
     "id": 13,
     "title": "Web",
     "location": "Berlin",
-    "text": "Bike of the day",
+    "text": "Web of the day",
     "likes": 7891,
     "comments": 7777,
     "img": "./img/web.jpg"
+  },
+  {
+    "id": 14,
+    "title": "Gallery",
+    "location": "Berlin",
+    "text": "Gallery of the day",
+    "likes": 123456,
+    "comments": 141414,
+    "img": "./img/gallery.jpg"
   }
 ]
