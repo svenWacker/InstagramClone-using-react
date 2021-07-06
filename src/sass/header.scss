@@ -11,7 +11,7 @@
       margin-left: 1rem;
       margin-right: 3rem;
       img {
-        width: 250px;
+        width: 224px;
       }
     }
     .follow {
@@ -44,7 +44,7 @@
         }
       }
     }
-    border-bottom: 1px solid #3338;
+    // border-bottom: 1px solid #3338;
   }
   .gallery-menu {
     display: flex;
@@ -53,7 +53,7 @@
     a {
       text-decoration: none;
       color: grey;
-      margin: 1rem 2rem;
+      margin: 0rem 2rem;
     }
     a:hover {
       color: black;

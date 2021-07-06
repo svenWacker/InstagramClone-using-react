@@ -72,8 +72,14 @@ const Header = () => {
           </div>
         </div>
       </div>
-      <div className="gallery-menu">
-        <a href="/"> {list}&nbsp;POSTS</a>
+      <div className="gallery-menu" style={{ borderTop: "1px solid #3338" }}>
+        <a
+          style={{ padding: "1rem 0 1rem 0", borderTop: "2px solid grey" }}
+          href="/"
+        >
+          {" "}
+          {list}&nbsp;POSTS
+        </a>
 
         <a href="/"> {video}&nbsp;REELS</a>
 

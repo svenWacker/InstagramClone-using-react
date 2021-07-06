@@ -5,6 +5,7 @@ import {
   faCompass,
   faHeart,
   faPaperPlane,
+  faSearch,
 } from "@fortawesome/free-solid-svg-icons";
 
 const Navigation = () => {
@@ -13,8 +14,8 @@ const Navigation = () => {
       <div className="image-wrapper">
         <img alt="instagram logo" src={IGLogo} className="logo-image" />
       </div>
-      <div>
-        <input type="text" placeholder="Search" />
+      <div className="search-wrapper">
+        <input type="text" id="search" placeholder="🔍 Search" />
       </div>
       <div className="social-wrapper">
         <a className="social">

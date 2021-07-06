@@ -1,6 +1,7 @@
 .navigation-wrapper {
   border-bottom: 1px solid #3338;
   height: 5vh;
+  width: auto;
   display: flex;
   justify-content: space-between;
   flex-direction: row;
@@ -11,13 +12,25 @@
       height: 100%;
     }
   }
+  .search-wrapper {
+    position: relative;
+    display: flex;
+    #search {
+      text-align: center;
+      width: 14.5rem;
+      height: 1.6rem;
+    }
+  }
   .social-wrapper {
     display: flex;
-    justify-content: space-between;
+    position: relative;
+    align-items: center;
   }
   .social {
+    display: flex;
+    position: relative;
     display: inline;
-    margin: 10px;
+    margin: 0.4rem;
     img {
       height: 7rem;
     }
