@@ -1,5 +1,8 @@
 .gallery-wrapper {
+  width: 75vw;
   display: flex;
+  justify-content: center;
+  align-items: center;
   .image-gallery {
     justify-content: center;
     list-style-type: none;
@@ -14,6 +17,7 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    position: absolute;
   }
   .image-overlay {
     background-color: transparent;
@@ -21,33 +25,26 @@
     height: 300px;
     margin: 10px;
     border-radius: 5px;
-    position: absolute;
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    opacity: 0;
     transition: 1s;
   }
-  .image-overlay:hover {
-    background-color: white;
-    opacity: 0.5;
+  .image-overlay:hover .image-title {
+    opacity: 0.9;
     cursor: pointer;
-    // .image-title,
-    // .image-description {
-    //   opacity: 1;
-    //   color: black;
-    // }
-  }
-  // .images:hover {
-  //   opacity: 0.5;
-  //   transition: 1s;
-  // }
-  .image-title {
     font-size: 1.2rem;
     font-weight: bold;
   }
-
-  .image-description {
-    font-size: 1.2rem;
+}
+.image-title {
+  display: flex;
+  opacity: 0;
+  span {
+    margin: 2rem;
   }
+}
+.image-overlay:hover {
+  opacity: 0.75;
 }

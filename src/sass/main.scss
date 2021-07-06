@@ -14,8 +14,5 @@ body {
   color: rgba(var(--i1d, 38, 38, 38), 1);
   display: flex;
   align-items: center;
-  // justify-content: center;
-}
-#root {
-  max-width: 975px;
+  justify-content: center;
 }

@@ -3,18 +3,20 @@ import { faHeart, faComment } from "@fortawesome/free-solid-svg-icons";
 
 const Gallery = ({ Data }) => {
   const galleryData = Data.map((obj) => (
-    <li key={obj.id} className="#images">
-      <img src={obj.img} alt={obj.title} className="images" />
+    <li key={obj.id}>
       <div className="image-overlay">
+        <img src={obj.img} alt={obj.title} className="images" />
         <div className="image-title">
-          <FontAwesomeIcon icon={faHeart} />
-          &nbsp;
-          {obj.likes}
-        </div>
-        <div className="image-description">
-          <FontAwesomeIcon icon={faComment} />
-          &nbsp;
-          {obj.comments}
+          <span>
+            <FontAwesomeIcon icon={faHeart} />
+            &nbsp;
+            {obj.likes}
+          </span>
+          <span>
+            <FontAwesomeIcon icon={faComment} />
+            &nbsp;
+            {obj.comments}
+          </span>
         </div>
       </div>
     </li>
