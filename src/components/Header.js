@@ -12,7 +12,10 @@ const Header = () => {
     <div className="header-wrapper">
       <div className="content">
         <div className="avatar">
-          <img style={{ borderRadius: "50%" }} src="./img/me.jpg" />
+          <img
+            style={{ borderRadius: "50%" }}
+            src={process.env.PUBLIC_URL + "/img/me.jpg"}
+          />
         </div>
         <div className="follow">
           <div className="row">

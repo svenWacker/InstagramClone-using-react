@@ -6,7 +6,7 @@
     "text": "Drink of the day",
     "likes": 0,
     "comments": 0,
-    "img": "./img/drinks.jpg"
+    "img": "drinks.jpg"
   },
   {
     "id": 1,
@@ -15,7 +15,7 @@
     "text": "Elements of the day",
     "likes": 1234,
     "comments": 1234,
-    "img": "./img/elements.jpg"
+    "img": "elements.jpg"
   },
   {
     "id": 2,
@@ -24,7 +24,7 @@
     "text": "Flower of the day",
     "likes": 2345,
     "comments": 2222,
-    "img": "./img/flower.jpg"
+    "img": "flower.jpg"
   },
   {
     "id": 3,
@@ -33,7 +33,7 @@
     "text": "Galaxy of the day",
     "likes": 3456,
     "comments": 3333,
-    "img": "./img/galaxy.jpg"
+    "img": "galaxy.jpg"
   },
   {
     "id": 4,
@@ -42,7 +42,7 @@
     "text": "Giant of the day",
     "likes": 4567,
     "comments": 4444,
-    "img": "./img/giant.jpg"
+    "img": "giant.jpg"
   },
   {
     "id": 5,
@@ -51,7 +51,7 @@
     "text": "Gotye of the day",
     "likes": 2345,
     "comments": 5555,
-    "img": "./img/gotye.jpg"
+    "img": "gotye.jpg"
   },
   {
     "id": 6,
@@ -60,7 +60,7 @@
     "text": "Halo of the day",
     "likes": 6789,
     "comments": 6666,
-    "img": "./img/halo.jpg"
+    "img": "halo.jpg"
   },
   {
     "id": 7,
@@ -69,7 +69,7 @@
     "text": "Life of the day",
     "likes": 7891,
     "comments": 7777,
-    "img": "./img/life.jpg"
+    "img": "life.jpg"
   },
   {
     "id": 8,
@@ -78,7 +78,7 @@
     "text": "Popeye of the day",
     "likes": 6789,
     "comments": 6666,
-    "img": "./img/popeye.jpg"
+    "img": "popeye.jpg"
   },
   {
     "id": 9,
@@ -87,7 +87,7 @@
     "text": "Rainbow of the day",
     "likes": 7891,
     "comments": 7777,
-    "img": "./img/rainbow.jpg"
+    "img": "rainbow.jpg"
   },
   {
     "id": 10,
@@ -96,7 +96,7 @@
     "text": "Spark of the day",
     "likes": 6789,
     "comments": 6666,
-    "img": "./img/spark.jpg"
+    "img": "spark.jpg"
   },
   {
     "id": 11,
@@ -105,7 +105,7 @@
     "text": "Stonesof the day",
     "likes": 7891,
     "comments": 7777,
-    "img": "./img/stones.jpg"
+    "img": "stones.jpg"
   },
   {
     "id": 12,
@@ -114,7 +114,7 @@
     "text": "Suit of the day",
     "likes": 6789,
     "comments": 6666,
-    "img": "./img/suit.jpg"
+    "img": "suit.jpg"
   },
   {
     "id": 13,
@@ -123,7 +123,7 @@
     "text": "Web of the day",
     "likes": 7891,
     "comments": 7777,
-    "img": "./img/web.jpg"
+    "img": "web.jpg"
   },
   {
     "id": 14,
@@ -132,6 +132,6 @@
     "text": "Gallery of the day",
     "likes": 123456,
     "comments": 141414,
-    "img": "./img/gallery.jpg"
+    "img": "gallery.jpg"
   }
 ]

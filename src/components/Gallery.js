@@ -5,7 +5,11 @@ const Gallery = ({ Data }) => {
   const galleryData = Data.map((obj) => (
     <li key={obj.id}>
       <div className="image-overlay">
-        <img src={obj.img} alt={obj.title} className="images" />
+        <img
+          src={process.env.PUBLIC_URL + "/img/" + obj.img}
+          alt={obj.title}
+          className="images"
+        />
         <div className="image-title">
           <span>
             <FontAwesomeIcon icon={faHeart} />

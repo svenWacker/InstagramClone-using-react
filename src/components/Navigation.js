@@ -40,7 +40,7 @@ const Navigation = () => {
               width: "22px",
               height: "22px",
             }}
-            src="./img/me.jpg"
+            src={process.env.PUBLIC_URL + "/img/me.jpg"}
             className="profile-image"
           />
         </a>
